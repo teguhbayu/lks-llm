@@ -21,9 +21,6 @@
           - docker.io
           - gpg
           - curl
-          - ansible
-          - python3-apt
-          - python3
         state: present
       tags: [packages]
 
