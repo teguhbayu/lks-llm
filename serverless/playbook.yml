@@ -22,6 +22,7 @@
           - gpg
           - curl
           - ansible
+          - python3-apt
         state: present
       tags: [packages]
 
