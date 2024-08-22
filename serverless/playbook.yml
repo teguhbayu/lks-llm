@@ -21,6 +21,7 @@
           - docker.io
           - gpg
           - curl
+          - Ansible
         state: present
       tags: [packages]
 
